@@ -3,13 +3,13 @@ import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="">
       <Head>
         <title>spotify 2.0 clone</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main>
+      <main className="bg-black h-screen overflow-hidden">
         {/* sidebar */}
         <Sidebar />
         {/* center */}
