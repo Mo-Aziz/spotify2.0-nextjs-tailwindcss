@@ -1,8 +1,26 @@
-# Next.js + Tailwind CSS Example
-
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+# Spotify 2.0 clone with Next js 12 and Tailwindcss
 
 ## Preview
+
+###\***\*Features**
+
+#### responsivenss
+
+#### Authentication using JWT tokens and next Auth
+
+#### server side rendering and consuming Spotify API
+
+###**Tools**###
+
+#### NEXT JS 12
+
+#### TAILWINDcss
+
+#### Rebounce
+
+#### SpotifywebApi
+
+This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
 Preview the example live on [StackBlitz](http://stackblitz.com/):
 
