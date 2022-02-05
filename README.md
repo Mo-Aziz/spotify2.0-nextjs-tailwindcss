@@ -6,7 +6,9 @@
 
 #### responsivenss
 
-#### Authentication using JWT tokens and next Auth
+#### Authentication using JWT tokens and next Auth.
+
+#### Using middleware layer to verify the login status tokens.
 
 #### server side rendering and consuming Spotify API
 
