@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Sidebar from "../components/Sidebar";
+import Center from "../components/Center";
 
 export default function Home() {
   return (
@@ -9,10 +10,14 @@ export default function Home() {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main className="bg-black h-screen overflow-hidden">
+      <main
+        className="
+       flex bg-black h-screen overflow-hidden"
+      >
         {/* sidebar */}
         <Sidebar />
         {/* center */}
+        <Center />
       </main>
       <div>{/* player section */}</div>
     </div>

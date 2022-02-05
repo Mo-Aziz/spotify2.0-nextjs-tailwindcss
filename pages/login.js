@@ -32,25 +32,3 @@ export async function getServerSideProps() {
     },
   };
 }
-
-// _middleware.js;
-// import { getToek, getToken } from "next-auth/jwt";
-// import { NextResponse } from "next/server";
-
-// export async function middlewar(req) {
-//   // Token will exist if user is loggin in
-//   const token = await getToken({ req, secret: process.env, JWT_SECERT });
-
-//   const { pathname } = req.nextUrl;
-
-//   //Allow the request if the following is true...
-//   // 1- it is a request for next-auth  session & provider to fetch the existed tokens.
-
-//   if (pathname.includes("/api/auth") || token) {
-//     return NextResponse.next();
-//   }
-//   // redirect them login if they do not have token AND are requesting a protected route
-//   if (!token && pathname !== "/login") {
-//     return NextResponse.redirect("/login");
-//   }
-// }
